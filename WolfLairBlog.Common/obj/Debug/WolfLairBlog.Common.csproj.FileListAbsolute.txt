@@ -1,0 +1,15 @@
+D:\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\bin\Debug\WolfLairBlog.Common.dll
+D:\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\bin\Debug\WolfLairBlog.Common.pdb
+D:\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\obj\Debug\WolfLairBlog.Common.dll
+D:\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\obj\Debug\WolfLairBlog.Common.pdb
+D:\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\bin\Debug\NLog.dll
+D:\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\bin\Debug\NLog.xml
+D:\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\bin\Debug\NLog.config
+C:\Users\hexd\Desktop\20170217blog\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\bin\Debug\NLog.config
+C:\Users\hexd\Desktop\20170217blog\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\bin\Debug\WolfLairBlog.Common.dll
+C:\Users\hexd\Desktop\20170217blog\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\bin\Debug\WolfLairBlog.Common.pdb
+C:\Users\hexd\Desktop\20170217blog\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\bin\Debug\NLog.dll
+C:\Users\hexd\Desktop\20170217blog\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\bin\Debug\NLog.xml
+C:\Users\hexd\Desktop\20170217blog\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\obj\Debug\WolfLairBlog.Common.csprojResolveAssemblyReference.cache
+C:\Users\hexd\Desktop\20170217blog\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\obj\Debug\WolfLairBlog.Common.dll
+C:\Users\hexd\Desktop\20170217blog\WolfLairBlog\WolfLairBlogs\WolfLairBlog.Common\obj\Debug\WolfLairBlog.Common.pdb
