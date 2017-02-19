@@ -15,6 +15,7 @@ namespace WolfLairBlog.Crawler
     {
         static object _obj = new object();
         static int count;
+        static AutoResetEvent autoReset = new AutoResetEvent(false);
         static void Main(string[] args)
         {
 
@@ -22,11 +23,13 @@ namespace WolfLairBlog.Crawler
             Thread t = new Thread(Temp);
             t.Start();
             Thread t2;
-            for (int i = 0; i < 3; i++)
-            {
-                t2 = new Thread(Chuli);
-                t2.Start();
-            }
+            // for (int i = 0; i < 3; i++)
+            //  {
+            t2 = new Thread(Chuli);
+            autoReset.WaitOne();
+            Console.WriteLine("开始处理队列，队列剩余数量为：{0}", TempQueue.Count);
+            t2.Start();
+            // }
             Console.ReadKey();
         }
         static void Chuli()
@@ -36,7 +39,8 @@ namespace WolfLairBlog.Crawler
             //  {
             while (true)
             {
-                 Thread.Sleep(500);
+                Console.WriteLine("队列剩余数量为：{0}", TempQueue.Count);
+                // Thread.Sleep(500);
                 // lock (_obj)
                 //{
                 if (TempQueue.Count > 0)
@@ -111,6 +115,7 @@ namespace WolfLairBlog.Crawler
                     PaChong(string.Format("http://www.cnblogs.com/sitehome/p/{0}", i));
                 }
             }
+            autoReset.Set();
             Console.WriteLine("数据抓取完毕！");
         }
         static Queue<Result> TempQueue = new Queue<Result>();
